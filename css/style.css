@@ -19,3 +19,13 @@ html {
 body{
   background-color: aliceblue;
 }
+
+.img{
+  margin: 50px;
+}
+.navbar{
+  padding: 5rem;
+  display: inline-flex;
+  padding-right: 20px;
+  word-spacing: 0.235px;
+}
