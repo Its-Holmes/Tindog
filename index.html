@@ -11,7 +11,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    
+    
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -23,6 +29,9 @@
       
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
@@ -47,30 +56,42 @@
         </div>
       </nav>
 
-      <div class="header-show">
-        <h2>FOR MODERN DOGS AND THEIR BEST FRIENDS!</h2>
-        <h1>Welcome to Tindog</h1>
-        <button type="button" class="btn btn-info">All Blogs</button>
-        <button type="button" class="btn btn-outline-info">More Details</button>
-      </div>
+      
     </header>
 
-    <section>
-      <div>
-        <p class="title-para">HI THERE,</p>
-        <h2>Welcome to our Family!</h2>
-        <p>
-          Here at tindog we want to provide you with the best online informatio
-          resources for dogs! We love our pups and we understand how important
-          it is for you to keep your dog safe, happy and healthy!
-        </p>
+    <div id="header-show">
+      <h4 class="header-title">FOR MODERN DOGS AND THEIR BEST FRIENDS!</h4>
+      <h1 class="header-mark">Welcome to Tindog</h1>
+      <button type="button" class="btn btn-info">All Blogs</button>
+      <button type="button" class="btn btn-outline-info">More Details</button>
+      <figure class="header-img"><img src="images/tindog-pro project.png" alt="" srcset=""></figure>
+    </div>
+
+    <section id="lists">
+      <div class="lists-item">
+        <h3 class="title-para">HI THERE,</h3>
+        <h1 class="lists-mark">Welcome to our Family!</h1>
+        <div class="lists-para">
+          <p class="text-lg-center align-content-lg-center">
+            Here at tindog we want to provide you with the best online informatio
+            resources for dogs! We love our pups and we understand how important
+            it is for you to keep your dog safe, happy and healthy!
+          </p>
+        </div>
       </div>
 
       <div class="list">
-        <div class="list-item">
-          <i></i>
-          <h3>Dog Breeds and Personalities</h3>
-        </div>
+        <ul class="left-list">
+          <li>
+            <div class="list-icon">
+              <i class="bi bi-journals"></i>
+            </div>
+            <div class="list-content">
+              <h3>Dog Breeds and Personalities</h3>
+              <p>Do you want to learn more about your furry best friend? Check out our complete library on the most popular dog breeds out there</p>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
 
